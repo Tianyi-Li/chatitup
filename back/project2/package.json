@@ -1,0 +1,20 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "TianyiLi",
+  "license": "ISC",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
